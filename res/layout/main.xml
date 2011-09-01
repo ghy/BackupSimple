@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical" android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
-	<ListView android:id="@+id/lv" android:layout_width="fill_parent"
-		android:layout_height="fill_parent">
-	</ListView>
+	android:layout_height="wrap_content">
+    <Button android:layout_height="wrap_content" android:text="@string/backup" 
+    android:id="@+id/btnBackup" android:maxWidth="200sp" android:layout_width="fill_parent"></Button>
+    <Button android:text="@string/restore" android:id="@+id/btnRestore" 
+    android:layout_height="fill_parent" android:layout_width="fill_parent"></Button>
 </LinearLayout>
